@@ -42,10 +42,11 @@ public class Game {
     }
 
     public void run() {
+        // load some font(s)
+
+        //FontManager.loadFont("fonts/PressStart2P-Regular.ttf", "PressStart2P-Regular");
         while(true) {
             lastLoop = Timer.getTime();
-
-
             //update
             if(updater != null) {
                 updater.update();

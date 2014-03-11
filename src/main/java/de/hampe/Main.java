@@ -1,6 +1,7 @@
 package de.hampe;
 
 import de.hampe.te.Core;
+import de.hampe.te.FontManager;
 import de.hampe.te.Game;
 import de.hampe.te.Timer;
 import de.hampe.te.entity.Entity;
@@ -19,6 +20,7 @@ public class Main {
 
     public static void main(String[] args) {
         Game game = new Game("Tiny Graphics Lib (alpha)", 800, 600);
+
         game.setRenderer(new DemoRenderer());
         game.run();
 

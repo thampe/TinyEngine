@@ -34,9 +34,13 @@ public class Fps {
 
     public void draw(Graphics2D context) {
         updateFps();
+        //remember old states
+        Color color = context.getColor();
         context.setColor(Color.green);
         context.drawString(fps+"FPS", 1, 15);
 
+        //reset
+        context.setColor(color);
     }
 
     private void updateFps() {
