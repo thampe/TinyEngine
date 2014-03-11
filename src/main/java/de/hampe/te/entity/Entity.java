@@ -1,7 +1,7 @@
-package de.hampe.core.entity;
+package de.hampe.te.entity;
 
-import de.hampe.core.graphics.Sprite;
-import de.hampe.core.graphics.SpriteStore;
+import de.hampe.te.graphics.Sprite;
+import de.hampe.te.graphics.SpriteStore;
 
 import java.awt.*;
 

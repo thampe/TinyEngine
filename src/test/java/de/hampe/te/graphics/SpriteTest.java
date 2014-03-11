@@ -1,4 +1,4 @@
-package de.hampe.core.graphics;
+package de.hampe.te.graphics;
 
 import org.junit.Assert;
 import org.junit.Test;

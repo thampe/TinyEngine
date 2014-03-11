@@ -1,4 +1,4 @@
-package de.hampe.core.entity;
+package de.hampe.te.entity;
 
 import junit.framework.Assert;
 import org.junit.Test;

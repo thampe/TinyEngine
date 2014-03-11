@@ -1,5 +1,5 @@
-package de.hampe.core.graphics;
-import de.hampe.core.Core;
+package de.hampe.te.graphics;
+import de.hampe.te.Core;
 
 import java.net.URL;
 import java.util.HashMap;

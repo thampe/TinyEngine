@@ -1,4 +1,4 @@
-package  de.hampe.core;
+package  de.hampe.te;
 
 import javax.swing.*;
 import java.awt.*;
@@ -15,6 +15,8 @@ public class Window extends Canvas{
 
     private BufferStrategy strategy;
 
+    private JFrame frame;
+
     private static Window instance;
 
     public static Window singleton() {
@@ -30,7 +32,7 @@ public class Window extends Canvas{
 
     public Window(String title, int width, int height) {
 
-        JFrame frame = new JFrame(title);
+        frame = new JFrame(title);
 
         JPanel panel = (JPanel) frame.getContentPane();
         panel.setPreferredSize(new Dimension(width,height));
@@ -58,6 +60,10 @@ public class Window extends Canvas{
         createBufferStrategy(2);
         strategy = getBufferStrategy();
 
+    }
+
+    public void setTitle(String title) {
+        frame.setTitle(title);
     }
 
     public Graphics2D getGraphicsContext() {

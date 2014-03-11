@@ -1,11 +1,10 @@
-package de.hampe.core.graphics;
+package de.hampe.te.graphics;
 
-import de.hampe.core.Core;
+import de.hampe.te.Core;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URL;
 

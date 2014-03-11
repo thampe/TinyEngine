@@ -1,4 +1,4 @@
-package de.hampe.core;
+package de.hampe.te;
 
 import java.util.HashMap;
 
