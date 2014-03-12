@@ -37,10 +37,14 @@ public class Fps {
         //remember old states
         Color color = context.getColor();
         context.setColor(Color.green);
-        context.drawString(fps+"FPS", 1, 15);
+        context.drawString(getFps()+"FPS", 1, 15);
 
         //reset
         context.setColor(color);
+    }
+
+    public int getFps() {
+        return fps != 0 ? fps : 100;
     }
 
     private void updateFps() {
